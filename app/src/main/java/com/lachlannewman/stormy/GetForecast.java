@@ -77,6 +77,9 @@ public class GetForecast {
                     if(response.isSuccessful()){
                         Log.v(TAG,response.body().string());
                     }
+                    else{
+                        alertUserError();
+                    }
                 }
                 catch (IOException e){
                     Log.e(TAG,"Exception caught:"+e);
@@ -85,5 +88,9 @@ public class GetForecast {
         });
 
         return data;
+    }
+
+    private void alertUserError() {
+
     }
 }
