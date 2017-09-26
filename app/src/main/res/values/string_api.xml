@@ -1,0 +1,8 @@
+<resources>
+    <string name="forecast_currently_json">currently</string>
+    <string name="current_time_json">time</string>
+    <string name="current_humidity_json">humidity</string>
+    <string name="current_icon_json">icon</string>
+    <string name="current_precipitation_json">precipProbability</string>
+    <string name="current_temperature_json">temperature</string>
+</resources>
