@@ -35,8 +35,8 @@ public class CurrentWeather {
         this.time = time;
     }
 
-    public double getTemperature() {
-        return temperature;
+    public long getTemperature() {
+        return Math.round(temperature);
     }
 
     public void setTemperature(double temperature) {
@@ -51,8 +51,8 @@ public class CurrentWeather {
         this.humidity = humidity;
     }
 
-    public double getPrecipitation() {
-        return precipitation;
+    public long getPrecipitation() {
+        return Math.round(precipitation * 100);
     }
 
     public void setPrecipitation(double precipitation) {
