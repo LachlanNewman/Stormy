@@ -5,4 +5,6 @@
     <string name="current_icon_json">icon</string>
     <string name="current_precipitation_json">precipProbability</string>
     <string name="current_temperature_json">temperature</string>
+    <string name="current_summary_json">summary</string>
+    <string name="forecast_timezone_json">timezone</string>
 </resources>
