@@ -11,6 +11,7 @@ import android.os.Bundle;
  */
 
 public class AlertDiologFragment extends DialogFragment {
+    private Context context;
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
